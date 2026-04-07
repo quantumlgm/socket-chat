@@ -1,18 +1,18 @@
-# Multi-threaded Console Chat on Python Sockets
-A simple, robust terminal-based chat application built with Python using low-level sockets and multi-threading
+# Multi-threaded Socket Chat
 
-## 📂 Features
-* **Multi-user Support**: Multiple clients can join and chat simultaneously.
-* **Concurrency**: Powered by `threading` to handle I/O operations without blocking.
-* **Connection Management**: Automatic cleanup and removal of disconnected clients.
-* **Minimalist UI**: Clean, distraction-free terminal interface.
+A terminal-based chat application implemented using Python's low-level `socket` library and multi-threading for concurrent client-server communication.
 
-## 🔧 Tech stack
-* **Language**: Python 3.x (3.14.3)
-* **Modules**: `socket`, `threading`, `sys`
+## Features
+* **Concurrent Connections**: Supports multiple simultaneous clients using the `threading` module.
+* **TCP/IP Networking**: Built on the Transmission Control Protocol for reliable data delivery.
+* **Server-side Management**: Real-time monitoring of active connections and automated cleanup of disconnected peers.
+* **Broadcast Logic**: Efficient message distribution from the server to all connected users.
 
+## Tech Stack
+* **Language**: Python 3.14.3
+* **Core Modules**: `socket`, `threading`, `sys`
 
-# 📦 How to Run
+# How to Run
 ### Clone repo
 ```bash
 git clone https://github.com/quantumlgm/socket-chat.git
